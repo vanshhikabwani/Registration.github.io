@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Registration</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .top-bar {
+      background-color: #317882;
+      padding: 1px 0;
+      text-align: center;
+      color: #fff;
+    }
+    
+    .top-bar-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    .website-link {
+      font-weight: bold;
+      color: #317882;
+    }
+    .web{
+      font-weight: bold;
+      color: white;
+    }
+    .contact-us {
+      font-style: italic;
+    }
+    
+    header {
+      background-color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-family: initial;
+    }
+    
+    .logo {
+      width: 300px;
+      display: block;
+      margin: 0;
+      margin-left: 20px;
+    }
+    
+    h1, h2, p {
+      color: black;
+      margin-top: 0;
+    }
+    
+    section {
+      text-align: center;
+      margin: 5px auto;
+    }
+    
+    .register-button {
+      display: inline-block;
+      margin: 20px auto;
+      padding: 10px 30px;
+      background-color: #317882;
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 20px;
+    }
+    
+    .register-button:hover {
+      background-color: #000;
+      color: #fff;
+    }
+    
+    .image-collage {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      margin-bottom: 20px;
+      background-color: #317882;
+    }
+    
+    .image-collage img {
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+    
+    footer {
+      background-color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      color: #317882;
+    }
+    
+    .competition-details {
+
+  text-align: left;
+  margin: 0;
+  background-color:white;
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 1px;
+}
+
+
+.competition-details h2 {
+  color: #317882;
+  margin-top: 0;
+}
+
+.competition-details p {
+  margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .competition-details {
+    margin: 20px auto;
+  }
+}
+    .competition-details h3 {
+      margin-top: 0;
+    }
+
+
+
+    .centered-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .centered-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }   
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -0.8px; 
+      align-items: center;
+      width:70%;
+    
+  }
+
+  .top-bar .social-icons a {
+    display: inline-block;
+    margin-left: 5px;
+  }
+
+  /* Adjust the size of the social media icons */
+  .social-icons a img {
+    width: 25px; /* Adjust the size as needed */
+  }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div class="top-bar-content">
+      <span 
+      class="website-link">
+        <a href="https://www.drugfreeworldindia.org/" class="web">www.drugfreeworldindia.org</a>
+      </span>
+      <div class="social-icons">
+        <a href="#"><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-facebook-social-media-icon-png-image_6315968.png" alt="Facebook"></a>
+        <a href="#"><img src="twi.png" alt="Twitter"></a>
+        <a href="#"><img src="https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-instagram-icon-png-image_6315974.png" alt="Instagram"></a>
+      </div>
+      <span class="contact-us">contactusdrugfreeworld.org</span>
+    </div>
+  </div>
+
+  <header>
+    <img src="logo.png" alt="Logo" class="logo">
+    
+    <img src ="showimage1.jpeg" class = "headd">
+    <h1>PAINTING COMPETITION</h1>
+    <p>Join us for an amazing event!</p>
+  </header>
+
+  <section>
+    <!-- <h2>Register Now</h2> -->
+    <a href="https://forms.gle/3j89mWnvpsiCVayk8" class="register-button">Register Here</a>
+    
+    <div class="image-collage left">
+      <!-- Add your left images here -->
+      <img src="11.jpg" alt="Image 1">
+      <img src="2.jpeg" alt="Image 2">
+      <img src="3.jpeg" alt="Image 3">
+      <img src="4.jpeg" alt="Image 4">
+    </div>
+
+    <div class="image-collage right">
+      <!-- Add your right images here -->
+      <img src="5.jpeg" alt="Image 5">
+      <img src="6.jpeg" alt="Image 6">
+      <img src="22.jpg" alt="Image 7">
+    </div>
+  </section>
+
+  <div class="competition-details">
+    <h3>Competition Details:</h3>
+    <p><strong>Eligibility:</strong> Students from classes 8 to 12.</p>
+    <p><strong>Theme:</strong> "My Vision for a Drug-Free World"</p>
+    <p><strong>Format:</strong> Create a visually captivating poster on an A3 size sheet that depicts your vision of a drug-free world. Use colors, illustrations, and powerful messages to convey the importance of a drug-free society.</p>
+    <p><strong>Registration:</strong> All participants must register themselves through this <a href="registration.php">link</a>. The registration fee is INR 250 for each participant.</p>
+    <p><strong>Submission:</strong> After registration, all participants have to submit their entry by 22nd June, 2023, to our office address through courier.</p>
+    <p><strong>FDFWI Office Address:</strong> 2/13A Jungpura, Block A, New Delhi - 110014</p>
+    <p><strong>Note:</strong> No entry will be considered after the deadline.</p>
+    <br>
+    <p><strong>Judging Criteria:</strong> Posters will be evaluated based on creativity, originality, clarity of message, and overall visual impact.</p>
+    <p><strong>Winners Announcement:</strong> The winners will be announced on 26th June, 2023, on our official handles and will be contacted individually.</p>
+    <p><strong>Prize:</strong> All participants will receive an e-certificate of participation. Additionally, three winners will be selected from each school. There will be a different prize pool for differently-abled students.</p>
+    <ul>
+      <li>1st Prize: Trophy and Gift Voucher for Rs. 1000</li>
+      <li>2nd Prize: Trophy and Gift Voucher for Rs. 1200</li>
+      <li>3rd Prize: Trophy and Gift Voucher for Rs. 1500</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p>&copy; 2023. All rights reserved.</p>
+  </footer>
+</body>
+</html>
