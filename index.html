@@ -103,7 +103,7 @@
 
   text-align: left;
   margin: 0;
-  background-color:white;
+  background-color: #f2f2f2;
   padding: 20px;
   border-radius: 5px;
   margin-left: 1px;
@@ -159,6 +159,196 @@
   .social-icons a img {
     width: 25px; /* Adjust the size as needed */
   }
+
+  .website-link {
+    font-weight: bold;
+  }
+
+  .contact-us {
+    font-style: italic;
+  }
+
+  /* Add your CSS styles here for the social media icons at the center of the page */
+  .centered-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .centered-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  .join-us-section {
+   
+  
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin: 20px auto;
+  }
+  
+  .join-us-section h2 {
+    font-family: 'Arial Black', sans-serif;
+    color: #317882;
+    margin-top: 0;
+  }
+  
+  .join-us-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .join-us-section a {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #317882;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: 'Arial Black', sans-serif;
+  }
+  
+  .join-us-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .more-info-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin: 20px auto;
+  }
+  
+  .more-info-section p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .more-info-section a {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #317882;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: 'Arial Black', sans-serif;
+  }
+  
+  .more-info-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .join-us-text {
+    animation: blink 3s infinite;
+    
+  }
+
+  @keyframes blink {
+    0% {
+      color: #317882;
+    }
+    50% {
+      color: #f5f5f5;
+    }
+  }
+ 
+
+  .more-about-us-section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .more-about-us-heading {
+text-align: left;
+   
+    margin-bottom: 10px;
+    color: #317882;
+    
+  }
+  
+  .more-about-us-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+      
+  .more-about-us-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+  }
+  
+  .more-about-us-images img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  .more-about-us-images img:nth-child(1) {
+    max-width: 300px;
+    max-height: 600px;
+  }
+
+  .more-about-us-images img:nth-child(2) {
+    max-width: 250px;
+    max-height: 400px;
+  }
+  
+.accordion{
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: #317882;
+    border-radius: 10px;
+    margin-left: 0px;
+    width: 700px;
+    
+}
+.accordion__question p{
+    margin: 5px;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 20px;
+    color:white ;
+    margin-left: 0%;
+    text-align: left;
+   
+}
+.accordion__answer p{
+    margin: 5px;
+    padding: 10px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #317882;
+    background: white;
+    border-radius: 10px; 
+    text-align: left;
+}
+.accordion:hover{
+    cursor: pointer;
+}
+.accordion__answer {
+    display: none;
+} 
+.accordion.active .accordion__answer {
+    display: block;
+}
+
+
+.layout {
+  width: 600px;
+  margin: auto;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: left; 
+}
   </style>
 </head>
 <body>
@@ -205,19 +395,21 @@
     </div>
   </section>
 
+  <h2 style=" margin-left: 20px; color: #317882;">Competition Details:</h2>
+
   <div class="competition-details">
-    <h3>Competition Details:</h3>
-    <p><strong>Eligibility:</strong> Students from classes 8 to 12.</p>
+    <!-- <h3>Competition Details:</h3> -->
+    <p><strong>Eligibility:</strong> Participants must be lie in age group 13-18years.</p>
     <p><strong>Theme:</strong> "My Vision for a Drug-Free World"</p>
-    <p><strong>Format:</strong> Create a visually captivating poster on an A3 size sheet that depicts your vision of a drug-free world. Use colors, illustrations, and powerful messages to convey the importance of a drug-free society.</p>
-    <p><strong>Registration:</strong> All participants must register themselves through this <a href="registration.php">link</a>. The registration fee is INR 250 for each participant.</p>
-    <p><strong>Submission:</strong> After registration, all participants have to submit their entry by 22nd June, 2023, to our office address through courier.</p>
-    <p><strong>FDFWI Office Address:</strong> 2/13A Jungpura, Block A, New Delhi - 110014</p>
-    <p><strong>Note:</strong> No entry will be considered after the deadline.</p>
-    <br>
-    <p><strong>Judging Criteria:</strong> Posters will be evaluated based on creativity, originality, clarity of message, and overall visual impact.</p>
-    <p><strong>Winners Announcement:</strong> The winners will be announced on 26th June, 2023, on our official handles and will be contacted individually.</p>
-    <p><strong>Prize:</strong> All participants will receive an e-certificate of participation. Additionally, three winners will be selected from each school. There will be a different prize pool for differently-abled students.</p>
+    <p><strong>Format:</strong> Create a visually captivating painting on an A3 size sheet.</p>
+   
+    <p><strong>Submission:</strong> All participants have to submit their entry by 15 July, 2023, to our office address through courier.</p>
+    <!-- <p><strong>FDFWI Office Address:</strong> 2/13A Jungpura, Block A, New Delhi - 110014</p>
+    
+
+    <p><strong>Winners Announcement:</strong> The winners will be announced on 26th June, 2023, on our official handles and will be contacted individually.</p> -->
+    <p><strong>Prize:</strong> All participants will receive an e-certificate of participation.</p>
+         <p>There will be a different prize pool for differently-abled students.</p>
     <ul>
       <li>1st Prize: Trophy and Gift Voucher for Rs. 1000</li>
       <li>2nd Prize: Trophy and Gift Voucher for Rs. 1200</li>
@@ -225,8 +417,98 @@
     </ul>
   </div>
 
+
+  <h2 style="color:#317882; text-align:left;margin-left: 20px; ">FAQ's</h2>
+  <section class="faq-section">
+    <div class="layout">
+      <div class="accordion">
+        <div class="accordion__question">
+          <p>Q: Where is Taj Mahal located?</p>
+        </div>
+        <div class="accordion__answer">
+          <p>A: Taj Mahal is located in Agra, Uttar Pradesh.</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion__question">
+          <p>How many planets are there in the solar system?</p>
+        </div>
+        <div class="accordion__answer">
+          <p>
+            There are eight planets in the solar system.
+            Mercury, Venus, Earth, Mars, Jupiter, Saturn,
+            Uranus, and Neptune.
+          </p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion__question">
+          <p>Q: Where is Taj Mahal located?</p>
+        </div>
+        <div class="accordion__answer">
+          <p>A: Taj Mahal is located in Agra, Uttar Pradesh.</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion__question">
+          <p>Q: Where is Taj Mahal located?</p>
+        </div>
+        <div class="accordion__answer">
+          <p>A: Taj Mahal is located in Agra, Uttar Pradesh.</p>
+        </div>
+      </div>
+      <div class="accordion">
+        <div class="accordion__question">
+          <p>Q: Where is Taj Mahal located?</p>
+        </div>
+        <div class="accordion__answer">
+          <p>A: Taj Mahal is located in Agra, Uttar Pradesh.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="more-about-us-section">
+    <h2 class="more-about-us-heading" >More About Us</h2>
+    <div class="more-about-us-images">
+      <img src="i1.png" alt="Image 1" style="max-width: 600px;  height: 406px;">
+      <img src="i2.png" alt="Image 2" style="max-width: 600px;height: 400px;">
+    </div>
+  </section>
+  
+  <section class="join-us-section">
+    <h2><strong><span class="join-us-text">JOIN US</span></strong></h2>
+    <p>Sign up and register yourself to become a volunteer</p>
+    <a href="https://www.drugfreeworldindia.org/">https://www.drugfreeworldindia.org/</a>
+  </section>
+  
+  <section class="more-info-section">
+    <p>For more information on drugs, visit:</p>
+    <a href="https://www.drugfreeworld.org/course/">https://www.drugfreeworld.org/course/</a>
+  </section>
+  
+  
   <footer>
-    <p>&copy; 2023. All rights reserved.</p>
+    <p>&copy; 2023 Drug Free World India. All rights reserved.</p>
+    
+    <p class="contact-us">Contact us: info@drugfreeworldindia.org</p>
   </footer>
+  
+  <script>
+    let answers = document.querySelectorAll(".accordion");
+    answers.forEach((event) => {
+      event.addEventListener('click', () => {
+        if (event.classList.contains("active")) {
+          event.classList.remove("active");
+        } else {
+          event.classList.add("active");
+        }
+      })
+    })
+  </script>
+
+
+
+
+  
 </body>
 </html>
